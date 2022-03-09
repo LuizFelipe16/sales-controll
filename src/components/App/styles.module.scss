@@ -1,0 +1,32 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  font-size: 10rem;
+  color: #fff;
+
+  background: #D31027;
+  background: -webkit-linear-gradient(to right, #EA384D, #D31027);
+  background: linear-gradient(to right, #EA384D, #D31027);
+
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    background: #fff;
+    border-radius: 0.5rem;
+    border: none;
+    color: #D31027;
+    padding: 1rem 3rem 1rem 3rem;
+    font: 400 1.2rem 'Rubik';
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+}

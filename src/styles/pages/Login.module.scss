@@ -1,0 +1,139 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  // background: #C9D6FF;
+  // background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+  // background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+
+  background: #D31027;
+  background: -webkit-linear-gradient(to right, #EA384D, #D31027);
+  background: linear-gradient(to right, #EA384D, #D31027);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  // .wallpaper {
+  //   width: 50vw;
+  //   height: 100vh;
+
+  //   object-fit: cover;
+  //   border-radius: 0 20% 60% 0;
+  //   border-right: 1rem solid #fff;
+  // }
+
+  .wallpaper {
+    width: 50vw;
+    height: 100vh;
+
+    background: #fff;
+    border-radius: 0 20% 60% 0;
+    border-right: 1rem solid #fff;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      font: 600 3rem 'Rubik';
+      color: #D31027;
+    }
+
+    p {
+      font: 400 1.5rem 'Rubik';
+      color: #EA384D;
+    }
+  }
+
+  div.form {
+    flex: 1;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      width: 29rem;
+      height: 31rem;
+  
+      border-radius: 0.5rem;
+      padding: 2rem 1.5rem 2rem 1.5rem;
+  
+      background: #fff;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+      gap: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+      h1 {
+        color: #EA384D;
+        font: 300 1.2rem 'Rubik';
+        margin-bottom: 1rem;
+      }
+
+      hr {
+        width: 100%;
+        height: 2px;
+        border-radius: 20%;
+        opacity: 0.5;
+        background: #EA384D;
+        border: none;
+      }
+  
+      button {
+        width: 100%;
+        height: 3.5rem;
+  
+        border: none;
+        border-radius: 0.5rem;
+        
+        font: 400 1rem 'Rubik';
+        color: #fff;
+  
+        transition: filter 0.2s;
+
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: center;
+
+        &[disabled] {
+          opacity: 0.3;
+          cursor: not-allowed;
+        }
+  
+        &:hover {
+          filter: brightness(80%);
+        }
+  
+        &.github {
+          background: #171515;
+        }
+  
+        &.facebook {
+          background: #3b5998;
+        }
+  
+        &.discord {
+          background: #7289d9;
+        }
+  
+        &.google {
+          background: #ff3e30;
+        }
+  
+        &.linkedin {
+          background: #0e76a8;
+        }
+      }
+    }
+  }
+}

@@ -1,34 +1,128 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![Banner](/public/git/banner.png)
 
-## Getting Started
+<br/>
 
-First, run the development server:
+# CyberCoffee
+
+### Website created with the theme of an online coffee shop, with this pretext I was able to add several interesting features such as an integrated Blog and a simulation of products in stock with a shopping cart.
+
+<br/>
+<br/>
+
+[![PyPi license](https://badgen.net/pypi/license/pip/)](https://pypi.com/project/pip/) ![Badge](https://img.shields.io/static/v1?label=MadeWith&message=TypeScript&color=OO7accstyle=for-the-badge&logo=ghost) ![Badge](https://img.shields.io/static/v1?label=Usage&message=ReactJS&color=007accstyle=for-the-badge&logo=ghost) [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
+
+<br/>
+<br/>
+
+🛠 Technologies
+=================
+The following tools were used in building the project:
+
+- 👉 [NextJS](https://nextjs.org)
+- 👉 [ReactJS](https://pt-br.reactjs.org/)
+- 👉 [TypeScript](https://www.typescriptlang.org/)
+- 👉 [Prismic CMS](https://prismic.io)
+- 👉 [Date fns](https://date-fns.org/v2.28.0/docs/Getting-Started)
+- 👉 [React icons](https://react-icons.github.io/react-icons/)
+- 👉 [React toastify](https://fkhadra.github.io/react-toastify/introduction)
+- 👉 [Sass](https://sass-lang.com)
+
+<br/>
+
+<p align="center">
+  🤖 Project Status 🚀 Construction... 🤖
+  <br/>
+  <a align="center" href="https://cybercoffee.vercel.app" target="_blank">
+    Access the address: https://cybercoffee.vercel.app
+  </a>
+</p>
+<br/>
+
+Getting Started
+=================
+
+These instructions will get you a copy of the full project up and running on your local machine for development and testing purposes.
+
+The project can be built with npm or yarn, so choose one of the approach bellow in case you don't have any installed on your system.
+
+- Npm is distributed with Node.js which means that when you download Node.js, you automatically get npm installed on your computer. [Node.js](https://nodejs.org/en/)
+
+- Yarn is a package manager built by Facebook Team and seems to be faster than npm in general.
+
+<br/>
+
+Features 
+=================
+<br/>
+
+- ✅ All information about the company;
+- ✅ getStaticProps and getServerSideProps strategies to consume an external api and pass the data pasted into the NextJS server for page rendering;
+- ✅ Simulation of a fully functional shopping cart;
+- ✅ Add, edit product quantity and delete product from shopping cart;
+- ✅ Validate product stock on quantity changes;
+- ✅ Automatic calculation of the shopping cart total;
+- ✅ Opening whatsapp for direct contact;
+- ✅ Prismic api post listing;
+- ✅ Data formatting with date Fns;
+- ✅ Notify/alert actions that cause application effects to the user;
+- ✅ Styling with sass;
+- ✅ Modern layout design;
+- ✅ All information about the company;
+- ✅ Google maps location;
+- ✅ Opening whatsapp for direct contact;
+- ✅ Prismic api post listing;
+- ✅ Data formatting with date Fns;
+- ✅ Styling with sass;
+- ✅ Modern layout design;
+- ✅ All information about the company;
+- ❌ Responsiveness with mobile devices;
+- ✅ Deploy in Vercel.
+
+<br/>
+
+How to Install
+=================
+
+- To download the project follow the instructions bellow:
 
 ```bash
-npm run dev
-# or
-yarn dev
+1. git clone
+2. cd cyber-coffee
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Install the dependencies and start:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+3. yarn
+4. yarn dev
+```
+- or
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+3. npm install
+4. npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Have fun just like me while programming
 
-## Learn More
+<br/>
 
-To learn more about Next.js, take a look at the following resources:
+Screen Shots
+=================
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Home
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![ScreenShot](/public/git/home.png)
 
-## Deploy on Vercel
+<br/>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Author
+=================
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Luiz Felipe S. Felizatti 🎯 
+
+Contact:
+
+- [Linkedin](https://www.linkedin.com/in/luiz-felipe-siqueira-felizatti-00783a1ab/)
+
+- [Instagram](https://www.instagram.com/luiz_2fs/)
